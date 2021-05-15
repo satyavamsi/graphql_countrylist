@@ -1,0 +1,31 @@
+.paper {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  margin: 1px;
+  background-color: var(--secondary) !important;
+}
+
+.form {
+  width: 100%;
+  margin-top: 1px;
+}
+
+.submit {
+  margin: 3px 0px 2px;
+  background-color: var(--primary) !important;
+  color: white !important;
+}
+
+.submit:hover {
+  background-color: var(--secondary) !important;
+  color: var(--primary) !important;
+}
+
+.lockIcon {
+  color: var(--primary);
+}

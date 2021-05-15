@@ -1,0 +1,19 @@
+.header {
+  background-color: var(--secondary) !important;
+}
+
+.header__toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolbar__image {
+  height: 66px;
+  margin: 6px;
+}
+
+.toolbar__logout {
+  background-color: var(--primary) !important;
+  color: white !important;
+  text-transform: none !important;
+}
